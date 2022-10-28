@@ -8,6 +8,7 @@ def index():
     homepage += "<a href=/mis>有興趣的MIS相關工作</a><br>"
     homepage += "<a href=/today>顯示日期時間</a><br>"
     homepage += "<a href=/welcome?nick=tcyang>自傳</a><br>"
+    homepage += "<a href=/about>謝謝觀看</a><br>"
         return homepage
 
 @app.route("/mis")
